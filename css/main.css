@@ -1,0 +1,24 @@
+#calTable {
+    
+}
+
+.calBox {
+    width: 28px;
+    height: 28px;
+    border: 1px solid #444;
+    position: relative;
+    float:left;
+    margin-right: 0px;
+    border-collapse: no-collapse;
+    border-spacing: 0;
+}
+
+.dayNum {
+    color: red;
+    font-size: 12px;
+    text-align: center;
+}
+
+.br {
+    clear:both;
+}
