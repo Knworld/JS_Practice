@@ -1,5 +1,10 @@
+body {
+  color: black;
+  background-color: rgb(198, 212, 193);
+}
+
 #calTable {
-    
+
 }
 
 .calBox {
@@ -21,4 +26,7 @@
 
 .br {
     clear:both;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
 }

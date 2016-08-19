@@ -5,41 +5,41 @@ var Person = function (firstAndLast) {
     var lastName = nameArr[1];
     var fullName = firstName + ' ' + lastName;
 
-   
+
     function update(){
       fullName = firstName + ' ' + lastName;
     }
-    
+
     this.getFirstName = function(){
         return firstName;
     }
-  
+
     this.getLastName = function(){
         return lastName;
     }
-      
+
     this.getFullName = function(){
         return fullName;
     }
-      
+
     this.setFirstName = function(name){
         firstName = name;
         update();
     }
-      
+
     this.setLastName = function(last){
         lastName = last;
         update();
     }
-      
+
     this.setFullName = function(full){
         nameArr = full.split(' ');
         firstName = nameArr[0];
         lastName = nameArr[1];
         fullName = full;
-        
+
     }
-  
+
 };
 
 
